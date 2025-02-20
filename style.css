@@ -61,7 +61,7 @@ body {
     transition: 0.3s ease;
 }::-webkit-scrollbar-thumb:hover {background-color: hsl(0, 0%, 26%);}
 .menu-container {
-    display: flex;
+    display: none;
     flex-direction: column;
     z-index: 99;
     background: linear-gradient(to top, hsla(0, 0%, 0%, 0.97), hsla(0, 0%, 11%, 0.97));
@@ -76,6 +76,7 @@ body {
     transition: 0.5s ease;
 }
 .menu-blur {
+    display: none;
     z-index: 98;
     position: fixed;
     top: 0;
@@ -957,6 +958,12 @@ body {
     }
     .header-nav {
         display: none;
+    }
+    .menu-container {
+        display: flex;
+    }
+    .menu-blur {
+        display: block;
     }
     .menu-icon-container {
         cursor: pointer;
