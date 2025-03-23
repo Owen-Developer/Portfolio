@@ -221,7 +221,7 @@ body {
 .home-title {
     font-weight: 500;
     font-size: 54px;
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: -2px;
     background: linear-gradient(to right, white, rgb(129, 129, 129));
     background-clip: text;
